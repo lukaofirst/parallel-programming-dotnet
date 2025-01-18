@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - AsParallel", "01 - AsParallel", "{098B0598-4576-407E-B2AD-661B20E74CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsParallel", "01 - AsParallel\AsParallel\AsParallel.csproj", "{B07278E3-E639-4ACC-9B07-7E8E041EF73D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - ParallelQuery", "02 - ParallelQuery", "{BC510145-9FB0-4A66-94BC-A5B324C4DD35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelQuery", "02 - ParallelQuery\ParallelQuery\ParallelQuery.csproj", "{B8CFF0B8-6FBA-4407-B0D4-CF09A0B4700C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Handling Cancellations and Exceptions", "03 - Handling Cancellations and Exceptions", "{FA0C8B2B-E85B-4F58-BF00-19FD8651C664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingCancellationsAndExceptions", "03 - Handling Cancellations and Exceptions\HandlingCancellationsAndExceptions\HandlingCancellationsAndExceptions.csproj", "{E7C6D09B-77FE-4A84-89F2-EFB8C3D632FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Merge Options", "04 - Merge Options", "{7CB8F084-FBDF-4495-8972-F51F7F6B3243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeOptions", "04 - Merge Options\MergeOptions\MergeOptions.csproj", "{BC20E662-8F66-49AB-851B-6931FD96C309}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Custom Aggregations", "05 - Custom Aggregations", "{308DB04A-A65A-4D54-8C82-2047AA2FFA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAggregations", "05 - Custom Aggregations\CustomAggregations\CustomAggregations.csproj", "{6EA567A8-6B12-4741-993E-5EFF77110429}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B07278E3-E639-4ACC-9B07-7E8E041EF73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07278E3-E639-4ACC-9B07-7E8E041EF73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07278E3-E639-4ACC-9B07-7E8E041EF73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07278E3-E639-4ACC-9B07-7E8E041EF73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CFF0B8-6FBA-4407-B0D4-CF09A0B4700C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CFF0B8-6FBA-4407-B0D4-CF09A0B4700C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CFF0B8-6FBA-4407-B0D4-CF09A0B4700C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CFF0B8-6FBA-4407-B0D4-CF09A0B4700C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C6D09B-77FE-4A84-89F2-EFB8C3D632FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C6D09B-77FE-4A84-89F2-EFB8C3D632FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C6D09B-77FE-4A84-89F2-EFB8C3D632FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C6D09B-77FE-4A84-89F2-EFB8C3D632FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC20E662-8F66-49AB-851B-6931FD96C309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC20E662-8F66-49AB-851B-6931FD96C309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC20E662-8F66-49AB-851B-6931FD96C309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC20E662-8F66-49AB-851B-6931FD96C309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA567A8-6B12-4741-993E-5EFF77110429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA567A8-6B12-4741-993E-5EFF77110429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA567A8-6B12-4741-993E-5EFF77110429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA567A8-6B12-4741-993E-5EFF77110429}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B07278E3-E639-4ACC-9B07-7E8E041EF73D} = {098B0598-4576-407E-B2AD-661B20E74CC9}
+		{B8CFF0B8-6FBA-4407-B0D4-CF09A0B4700C} = {BC510145-9FB0-4A66-94BC-A5B324C4DD35}
+		{E7C6D09B-77FE-4A84-89F2-EFB8C3D632FC} = {FA0C8B2B-E85B-4F58-BF00-19FD8651C664}
+		{BC20E662-8F66-49AB-851B-6931FD96C309} = {7CB8F084-FBDF-4495-8972-F51F7F6B3243}
+		{6EA567A8-6B12-4741-993E-5EFF77110429} = {308DB04A-A65A-4D54-8C82-2047AA2FFA55}
+	EndGlobalSection
+EndGlobal
