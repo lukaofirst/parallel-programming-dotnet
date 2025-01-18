@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Parallel Invoke", "01 - Parallel Invoke", "{D0BD850B-E654-480D-8EEC-0E3D192359DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelInvoke", "01 - Parallel Invoke\ParallelInvoke\ParallelInvoke.csproj", "{C7042386-BD3C-4F3D-AEDC-682CF2352734}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - ForEach and ForEachAsync", "02 - ForEach and ForEachAsync", "{8B0611B2-F6BA-40D3-9585-A0B1E082E499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEachAndForEachAsync", "02 - ForEach and ForEachAsync\ForEachAndForEachAsync\ForEachAndForEachAsync.csproj", "{A50CF710-7664-4888-9709-0CB7EA2F53CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - For and ForAsync", "03 - For and ForAsync", "{608A99A6-62D5-4C25-A19F-FC9354B165AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForAndForAsync", "03 - For and ForAsync\ForAndForAsync\ForAndForAsync.csproj", "{36CF1E6D-D233-4606-856B-B6E90A9A232D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Thread Local Storage", "04 - Thread Local Storage", "{6D15AC26-9AEF-488D-9419-20D9E46261D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLocalStorage", "04 - Thread Local Storage\ThreadLocalStorage\ThreadLocalStorage.csproj", "{7EDAFBBD-6532-408A-8048-18F7C1331E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Partitioning", "05 - Partitioning", "{F3E5BCCE-9836-4E2B-9C9B-701A618788CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitioning", "05 - Partitioning\Partitioning\Partitioning.csproj", "{4750C046-505F-4536-8DC1-8EDD9D42AF41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Handling Exceptions", "06 - Handling Exceptions", "{42CAD938-B55A-4542-8462-635B96D775DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions", "06 - Handling Exceptions\HandlingExceptions\HandlingExceptions.csproj", "{2A9F0D31-B5A8-40FC-996F-1AA75E7B5C88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7042386-BD3C-4F3D-AEDC-682CF2352734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7042386-BD3C-4F3D-AEDC-682CF2352734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7042386-BD3C-4F3D-AEDC-682CF2352734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7042386-BD3C-4F3D-AEDC-682CF2352734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50CF710-7664-4888-9709-0CB7EA2F53CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50CF710-7664-4888-9709-0CB7EA2F53CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50CF710-7664-4888-9709-0CB7EA2F53CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50CF710-7664-4888-9709-0CB7EA2F53CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CF1E6D-D233-4606-856B-B6E90A9A232D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36CF1E6D-D233-4606-856B-B6E90A9A232D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36CF1E6D-D233-4606-856B-B6E90A9A232D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36CF1E6D-D233-4606-856B-B6E90A9A232D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDAFBBD-6532-408A-8048-18F7C1331E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDAFBBD-6532-408A-8048-18F7C1331E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDAFBBD-6532-408A-8048-18F7C1331E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDAFBBD-6532-408A-8048-18F7C1331E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4750C046-505F-4536-8DC1-8EDD9D42AF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4750C046-505F-4536-8DC1-8EDD9D42AF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4750C046-505F-4536-8DC1-8EDD9D42AF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4750C046-505F-4536-8DC1-8EDD9D42AF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9F0D31-B5A8-40FC-996F-1AA75E7B5C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9F0D31-B5A8-40FC-996F-1AA75E7B5C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9F0D31-B5A8-40FC-996F-1AA75E7B5C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9F0D31-B5A8-40FC-996F-1AA75E7B5C88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7042386-BD3C-4F3D-AEDC-682CF2352734} = {D0BD850B-E654-480D-8EEC-0E3D192359DA}
+		{A50CF710-7664-4888-9709-0CB7EA2F53CD} = {8B0611B2-F6BA-40D3-9585-A0B1E082E499}
+		{36CF1E6D-D233-4606-856B-B6E90A9A232D} = {608A99A6-62D5-4C25-A19F-FC9354B165AF}
+		{7EDAFBBD-6532-408A-8048-18F7C1331E6A} = {6D15AC26-9AEF-488D-9419-20D9E46261D6}
+		{4750C046-505F-4536-8DC1-8EDD9D42AF41} = {F3E5BCCE-9836-4E2B-9C9B-701A618788CF}
+		{2A9F0D31-B5A8-40FC-996F-1AA75E7B5C88} = {42CAD938-B55A-4542-8462-635B96D775DB}
+	EndGlobalSection
+EndGlobal
